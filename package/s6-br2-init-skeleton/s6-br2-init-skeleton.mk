@@ -4,8 +4,8 @@
 #
 ################################################################################
 
-S6_BR2_INIT_SKELETON_VERSION = 0.2.2
-S6_BR2_INIT_SKELETON_SITE = $(call github,elebihan,s6-br2-init-skeleton,$(S6_BR2_INIT_SKELETON_VERSION))
+S6_BR2_INIT_SKELETON_VERSION = 0.2.3
+S6_BR2_INIT_SKELETON_SITE = $(call github,fredounnet,s6-br2-init-skeleton,$(S6_BR2_INIT_SKELETON_VERSION))
 S6_BR2_INIT_SKELETON_DEPENDENCIES = host-s6-rc host-s6-br2-init-skeleton
 
 S6_BR2_INIT_SKELETON_GETTY_PORT = $(call qstrip,$(BR2_TARGET_GENERIC_GETTY_PORT))
